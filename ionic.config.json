@@ -1,0 +1,12 @@
+{
+  "name": "sidemenu",
+  "app_id": "00b8aab6",
+  "v2": true,
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://localhost:8000/api"
+    }
+  ]
+}

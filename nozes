@@ -1,0 +1,547 @@
+    1  sudo dpkg -i dbeaver-ce_4.0.2_amd64.deb
+    2  dbeaver &
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  sudo add-apt-repository ppa:webupd8team/java
+    6  sudo apt-get update
+    7  sudo apt-get install oracle-java8-installer
+    8  cd Downloads/
+    9  cd
+   10  cd Downloads/
+   11  ls
+   12  sh netbeans-8.2-linux.sh 
+   13  sudo chmod a+x netbeans-8.2-linux.sh 
+   14  sh netbeans-8.2-linux.sh 
+   15  ifconfig
+   16  clear
+   17  ifconfig
+   18  sudo service network-manager restart
+   19  ifconfig
+   20  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   21  sudo apt-get install -f
+   22  cd
+   23  sudo nano /etc/default/grub 
+   24  sudo update-grub
+   25  sudo nano /etc/default/grub 
+   26  sudo apt install clementie
+   27  sudo apt install clementine
+   28  sudo dpkg -i sublime-text_build-3126_amd64.deb 
+   29  sudo apt-get install vlc vlc-plugin-vlsub 
+   30  sudo apt-get install mysql-workbench
+   31  php artisan serve
+   32  sudo apt-get install apache2 php php-mcrypt php-gd php-mysql libapache2-mod-php mysql-server php-mysql curl php-curl php-mbstring php-gettext
+   33  sudo phpenmod mcrypt
+   34  sudo phpenmod mbstring
+   35  sudo a2enmod rewrite
+   36  sudo service apache2 restart
+   37  curl -sS https://getcomposer.org/installer | php
+   38  sudo mv composer.phar /usr/local/bin/composer
+   39  sudo chmod +x /usr/local/bin/composer
+   40  ls
+   41  mkdir projetosL
+   42  cd projetosL/
+   43  composer create-project laravel/laravel blog
+   44  cd blog/
+   45  composer update
+   46  sudo chmod -R 775 storage/
+   47  php artisan make:migration create_tasks_table --create=tasks
+   48  clear
+   49  php artisan make:migration create_tasks_table --create=tasks
+   50  php artisan migrate
+   51  php artisan make:model task
+   52  composer create-project laravel/laravel blogApp
+   53  ls -lha
+   54  php artisan make:controller TasksController
+   55  php artisan make:model Post -mc
+   56  php artisan migrate
+   57  cd ..
+   58  cd blogApp/
+   59  sudo chmod 755 -R storage/
+   60  php artisan serve
+   61  clear
+   62  cd ..
+   63  cd blogA'
+   64  cd blogApp/
+   65  php artisan make:model task
+   66  php artisan serve
+   67  ifconfig
+   68  clear
+   69  ls netbeans-8.2/
+   70  ls netbeans-8.2/bin/
+   71  ifconfig
+   72  locate netbeans-8.2/
+   73  clear
+   74  cd /home/ivo/netbeans-8.2/bin/
+   75  ls
+   76  sudo ./netbeans 
+   77  cd 
+   78  sudo chmod a+x netbeans-8.2/
+   79  sudo chmod a+x -R netbeans-8.2/
+   80  ls -lha netbeans-8.2/
+   81  ifconfig
+   82  sudo rm -Rf /opt/netbeans*
+   83  sudo rm -Rf /usr/bin/netbeans
+   84  sudo rm -Rf /usr/share/applications/netbeans.desktop
+   85  sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make 
+   86  sudo apt-get update 
+   87  sudo apt-get install ubuntu-make 
+   88  umake ide netbeans
+   89  sudo apt-get update
+   90  sh netbeans-8.0-php-linux.sh 
+   91  clear
+   92  sudo chmod 777 -R netbeans-8.2-linux.sh 
+   93  sudo chmod a+x netbeans-8.2-linux.sh 
+   94  sh netbeans-8.2-linux.sh 
+   95  ls /opt/
+   96  ls /usr/bin/
+   97  ls /usr/bin/n*
+   98  locate netbeans
+   99  sh netbeans-8.2-linux.sh 
+  100  cd
+  101  nano
+  102  nano /etc/init.d/scriptDevTCE
+  103  sudo nano /etc/init.d/scriptDevTCE
+  104  sudo chmod 755 /etc/init.d/scriptDevTCE 
+  105  update-rc.d scriptDevTCE defaults 
+  106  sudo update-rc.d scriptDevTCE defaults 
+  107  sudo nano /etc/init.d/scriptDevTCE
+  108  sudo chmod 755 /etc/init.d/scriptDevTCE 
+  109  sudo update-rc.d scriptDevTCE defaults 
+  110  sudo reboot
+  111  sudo mount -t cifs -o username=ivopa //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  112  mount -t cifs -o username=ivopa //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  113  sudo mount -t cifs -o username=ivopa //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  114  sudo su
+  115  sudo mount -t cifs -o username=ivopa,password=pankeka11,uid=1000,gid=1000 //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  116  sudo mount -t cifs -o username=ivopa //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  117  sudo mount /home/ivo/dev/ cifs -t -o username=ivopa //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  118  sudo apt-get install cifs-utils
+  119  sudo mount -t cifs -o username=ivopa //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  120  sudo mount -t cifs -o username=ivopa,password=pankeka11,uid=1000,gid=1000 //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  121  cd projetosL/
+  122  cd blogApp/
+  123  php artisan make:controller PostsController
+  124  php artisan make:model Post -mc
+  125  php artisan migrate
+  126  clear
+  127  php artisan migrate
+  128  php artisan config:clear
+  129  php artisan serve
+  130  sudo service apache2 restart
+  131  php artisan serve
+  132  cd projetosL/
+  133  cd blogApp/
+  134  ls
+  135  php artisan make:model Comment -m
+  136  php artisan migrate
+  137  php artisan make:controller CommentsController
+  138  cd projetosL/
+  139  cd blogApp/
+  140  php artisan make:auth
+  141  composer require swiftmailer/swiftmailer
+  142  php artisan migrate:refresh
+  143  php artisan serve
+  144  cd blogApp/
+  145  cd projetosL/
+  146  cd blogApp/
+  147  php artisan make:controller SessionsController
+  148  php artisan make:controller RegistrationController
+  149  php artisan migrate:refresh
+  150  sudo mount -t cifs -o username=ivopa,password=pankeka11,uid=1000,gid=1000 //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  151  wine dxwebsetup.exe 
+  152  sudo dpkg --add-architecture i386 
+  153  sudo add-apt-repository ppa:wine/wine-builds
+  154  sudo apt-get update
+  155  sudo apt-get install --install-recommends winehq-devel
+  156  winecfg 
+  157  wine directx_9c_redist.exe
+  158  sudo apt-get install unrar
+  159  wine directx_9c_redist.exe
+  160  sudo apt-get install libtxc-dxtn-s2tc0
+  161  winecfg
+  162  cd projetosL/
+  163  cd blogApp/
+  164  php artisan serve
+  165  sudo poweroff
+  166  sudo mount -t cifs -o username=ivopa,password=pankeka11,uid=1000,gid=1000 //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  167  php artisan serve
+  168  php artisan make:controller ComidasController
+  169  php artisan make:controller ComidasController -r
+  170  cd projetosL/blogApp/
+  171  sudo poweroff
+  172  cd projetosL/blogApp/
+  173  php artisan tinker
+  174  php artisan migrate
+  175  phpunit tests/Unit/ExampleTest.php 
+  176  sudo apt-get install phpunit
+  177  phpunit tests/Unit/ExampleTest.php 
+  178  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  179  phpunit tests/Unit/ExampleTest.php 
+  180  clear
+  181  phpunit tests/Unit/ExampleTest.php 
+  182  php artisan migrate:refresh --database=connection
+  183  php artisan migrate:refresh
+  184  phpunit tests/Unit/ExampleTest.php 
+  185  clear
+  186  phpunit tests/Unit/ExampleTest.php 
+  187  clear
+  188  phpunit tests/Unit/ExampleTest.php 
+  189  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  190  php artisan migrate
+  191  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  192  php artisan migrate
+  193  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  194  clear
+  195  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  196  php artisan migrate
+  197  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  198  php artisan migrate
+  199  vendor/bin/phpunit tests/Unit/ExampleTest.php 
+  200  php artisan migrate
+  201  php artisan serve
+  202  cd projetosL/blogApp/
+  203  sudo service apache2 restart
+  204  php artisan serve
+  205  php artisan tinker
+  206  clear
+  207  php artisan tinker
+  208  php artsian make:mail Welcome
+  209  php artisan make:mail Welcome
+  210  php artisan make:mail WelcomeAgain --markdown="email/again"
+  211  php artisan tinker
+  212  php artisan migrate
+  213  php artisan migrate:refresh
+  214  sudo reboot
+  215  cd projetosL/blogApp/
+  216  php artisan -h
+  217  php artisan list
+  218  php artisan make:auth
+  219  php artisan make:refresh
+  220  php artisan migrate:refresh
+  221  cd ..
+  222  ls 
+  223  composer create-project laravel/laravel --prefer-dist
+  224  composer create-project laravel/laravel app --prefer-dist
+  225  php artisan serve
+  226  cd ..
+  227  sudo poweroff
+  228  php artisan serve
+  229  sudo service apache2 restart
+  230  php artisan serve
+  231  sudo service apache2 restart
+  232  php artisan serve
+  233  cd projetosL/app/
+  234  sudo chmod 777 -R storage/
+  235  php artisan make:model Post -m
+  236  php artisan make:model Comment -m
+  237  php artisan make:controller CommentsController
+  238  php artisan make:controller SessionsController
+  239  php artisan make:controller RegistrationController
+  240  php artisan make:mail Welcome --markdown="mail/email"
+  241  php artisan migrate
+  242  php artisan make:auth
+  243  vendor/phpunit 
+  244  php artisan tinker
+  245  php artisan migrate:refresh
+  246  php artisan make:model Tag -m
+  247  php artisan migrate
+  248  php artisan make:controller TagsController
+  249  sudo apt-get update
+  250  sudo apt-get install nodejs
+  251  sudo apt-get install npm
+  252  sudo apt-get install build-essential
+  253  sudo apt-get install build-essential libssl-dev
+  254  clear
+  255  cd
+  256  clear
+  257  ls
+  258  mkdir projetosM
+  259  cd projetosM
+  260  clear
+  261  npm install -g cordova ionic
+  262  sudo npm install -g cordova ionic
+  263  ionic start --v2 app blank --v2
+  264  sudo apt-get install nodejs
+  265  sudi ionic start --v2 app blank --v2
+  266  sudo ionic start --v2 app blank --v2
+  267  sudo aptitude install nodejs-legacy
+  268  sudo apt-get insatll nojes-legacy
+  269  sudo apt-get install nojes-legacy
+  270  sudo apt-get install aptitude
+  271  sudo aptitude install nodejs-legacy
+  272  sudo aptitude install nodejs
+  273  sudo ionic start --v2 app blank --v2
+  274  cd app/
+  275  ionic serve
+  276  sudo ionic serve
+  277  sudo chown ivo:ivo -R .
+  278  ionic serve
+  279  cd projetosM/
+  280  ls
+  281  cd app/
+  282  cd ..
+  283  sudo rm -R app
+  284  sudo ionic start --v2 app blank --v2
+  285  cd app
+  286  ionic serve
+  287  sudo chown ivo:ivo -R .
+  288  ls -lha
+  289  ionic serve
+  290  sudo ionic serve
+  291  ionic serve
+  292  sudo ionic serve
+  293  sudo chown ivo:ivo -R .
+  294  sudo ionic serve
+  295  sudo ionic serve
+  296  sudo apt-get install git
+  297  git config --global user.name "Ivo Pontes"
+  298  git init .
+  299  cd
+  300  ls
+  301  cd projetosM/
+  302  ls
+  303  cd app/
+  304  cd ..
+  305  git init .
+  306  git config --global user.name "Ivo Pontes"
+  307  git config --global user.email "ivopontes@outlook.com"
+  308  git add .
+  309  git commit -m "Projeto LOVE CALCULATOR - Ionic"
+  310  git push -u origin master
+  311  git remote add origin https://github.com/poentes/LoveCalculator
+  312  git push -u origin master
+  313  ls -lha
+  314  nano .git/
+  315  nano .git
+  316  nano .gitignore
+  317  git push -u origin master
+  318  git pull origin masater
+  319  git pull origin master
+  320  ls -lha
+  321  git push -u origin master
+  322  git add .
+  323  git commit -m "Projeto LOVE CALCULATOR - Ionic"
+  324  git push -u origin master
+  325  clear
+  326  sudo ionic start --v2 async-login blank --v2
+  327  cd app
+  328  sudo ionic serve
+  329  cd ..
+  330  ls
+  331  cd async-login/
+  332  ionic g page Login
+  333  sudo ionic g page Login
+  334  sudo ionic g provider Auth
+  335  sudo chown ivo:ivo -R .
+  336  sudo ionic start --v2 sidemenu blank --v2
+  337  cd ..
+  338  cd async-login/
+  339  ls
+  340  sudo mv -R sidemenu ..
+  341  sudo mv -R sidemenu/* ..
+  342  sudo mv sidemenu ..
+  343  sudo chown ivo:ivo -R ../sidemenu/
+  344  cd ..
+  345  sudo ionic start --v2 sidemenu sidemenu --v2
+  346  sudo chown ivo:ivo -R sidemenu/
+  347  cd sidemenu/
+  348  cd Downloads/
+  349  sudo dpkg -i evoluspencil_2.0.5_all.deb 
+  350  sudo pencil 
+  351  cd Downloads/
+  352  sudo dpkg -i evoluspencil_2.0.3_all.deb 
+  353  pencil &
+  354  sudo pencil &
+  355  sudo dpkg -i evoluspencil_2.0.2-1_i386.deb 
+  356  sudo pencil &
+  357  sudo apt-get install libxul.so
+  358  sudo ionic g page obrasAnoAtual
+  359  sudo ionic g page obrasAnoAnterior
+  360  sudo ionic g page outrasObras
+  361  sudo chown ivo:ivo -R sidemenu/
+  362  sudo chown ivo:ivo -R .
+  363  sudo ionic serve
+  364  cd ..
+  365  sudo chown ivo>ivo -R eduft
+  366  sudo ionic serve
+  367  cd eduft/
+  368  sudo ionic serve
+  369  cd projetosM/
+  370  sudo ionic start --v2 sidemenu sidemenu --v2
+  371  sudo ionic start --v2 eduft sidemenu --v2
+  372  cd eduft/
+  373  cd
+  374  cd Projetos/projetosM/eduft/
+  375  sudo poweroff
+  376  sudo mount -t cifs -o username=ivopa,password=pankeka11,uid=1000,gid=1000 //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  377  cd Projetos/projetosM/eduft/
+  378  sudo ionic serve
+  379  sudo apt-get update
+  380  sudo apt-get install -f
+  381  sudo apt-get upgrade
+  382  cd Projetos/projetosM/sidemenu/
+  383  sudo ionic serve
+  384  ls -lha
+  385  sudo ionic serve
+  386  cd ..
+  387  ls
+  388  cd async-login/
+  389  sudo ionic serve
+  390  cd ..
+  391  cd eduft/
+  392  sudo ionic gneerate page Tabs
+  393  sudo npm install -g cordova
+  394  sudo ionic generate page Tabs
+  395  npm install -g cordova
+  396  sudo ionic generate page Tabs
+  397  sudo npm install -g cordova
+  398  sudo ionic generate page Tabs
+  399  ls
+  400  sudo chown ivo:ivo -R .
+  401  cd ..
+  402  sudo mount -t cifs -o username=ivopa,password=pankeka11,uid=1000,gid=1000 //dev2.tce.to.gov.br/WEB /home/ivo/dev
+  403  sudo rm -R myTutorial/
+  404  cd edUFT/
+  405  sudo ionic generate page tabs
+  406  sudo ionic generate page settings
+  407  sudo ionic generate page about
+  408  sudo ionic serve
+  409  cd ..
+  410  ls -lha
+  411  cd Projetos/projetosM/
+  412  sudo ionic start --v2 edUFT blank --v2
+  413  sudo chown ivo:ivo -R edUFT
+  414  cd edUFT/
+  415  ls
+  416  clear
+  417  cd ..
+  418  sudo rm -R edUFT/
+  419  sudo ionic start edUFT blank --v2
+  420  cd edUFT/
+  421  cd ..
+  422  sudo ionic start myTutorial tutorial --v2
+  423  cd edUFT/
+  424  sudo chown ivo:ivo -R .
+  425  sudo ionic serve
+  426  sudo chown ivo:ivo -R .
+  427  sudo ionic serve
+  428  sudo service network-manager restart
+  429  sudo apt-get install octave
+  430  cd Projetos/projetosM/edUFT/
+  431  sudo ionic serve
+  432  cd
+  433  cd proj/
+  434  cd m/
+  435  ls
+  436  cd ionic-2-sidemenu-tabs-master/
+  437  sudo ionic serve
+  438  ls
+  439  cat readme.md 
+  440  ls
+  441  cd src/
+  442  ls
+  443  cd ..
+  444  sudo ionic serve
+  445  cd ..
+  446  ls
+  447  sudo rm ivo
+  448  cd edUFT/
+  449  ls
+  450  sudo ionic serve
+  451  cd ../eduft/
+  452  sudo ionic serve
+  453  cd ../edUFT/
+  454  sudo ionic serve
+  455  cd ..
+  456  cd edUF/
+  457  sudo ionic serve
+  458  cd ..
+  459  cd ionic-2-sidemenu-tabs-master/
+  460  sudo ionic serve
+  461  cd ..
+  462  cd edUFT
+  463  sudo ionic serve
+  464  shutdown -h
+  465  sudo shutdown
+  466  sudo shutdown now
+  467  sudo apt-get install gnome-session-flashback
+  468  sudo add-apt-repository ppa:embrosyn/cinnamon
+  469  sudo apt-get update && sudo apt-get install cinnamon
+  470  sudo apt-get install --reinstall nautilus-data
+  471  sudo apt-get --reinstall files
+  472  sudo apt-get install --reinstall file
+  473  sudo shutdown -r now
+  474  sudo apt-get install --reinstall nautilus-data
+  475  sudo apt-get remove ubuntu-desktop 
+  476  sudo dpkg --configure -a
+  477  sudo apt-get remove ubuntu-desktop 
+  478  sudo apt-get install ubuntu-desktop 
+  479  sudo nautilus
+  480  sudo nautilus &
+  481  nautilus &
+  482  git init .
+  483  git commit -m "Ionic Prototypes added"
+  484  git add .
+  485  sudo chown ivo:ivo -R .
+  486  git add .
+  487  git commit -m "Ionic Prototypes added"
+  488  git push -u origin master
+  489  git add .
+  490  git commit -m "Ionic Prototypes added"
+  491  git push -u origin master
+  492  ls
+  493  cd ..
+  494  cd ionic/
+  495  git --remote-add https://github.com/poentes/ionic
+  496  git --help
+  497  git help -a
+  498  git remote add https://github.com/poentes/ionic
+  499  git remote add https://github.com/poentes/ionic.git
+  500  git clone https://github.com/poentes/ionic.git
+  501  ls
+  502  ls -lha
+  503  git add .
+  504  git remote add ionic https://github.com/poentes/ionic.git
+  505  git remote add oring https://github.com/poentes/ionic.git
+  506  git remote add origin https://github.com/poentes/ionic.git
+  507  git remote add origin https://github.com/poentes/ionic
+  508  ls -lha
+  509  sudo chown ivo:ivo -R .
+  510  git remote add origin https://github.com/poentes/ionic
+  511  git add .
+  512  git init .
+  513  git remote add origin https://github.com/poentes/ionic
+  514  git add .
+  515  git commit -m "Ionic Projects Folder"
+  516  git push -u origin master
+  517  git fetch all
+  518  git fetch
+  519  git push -u origin master
+  520  git commit -m "Ionic Projects Folder"
+  521  ls
+  522  git remote -v
+  523  git fetch origin
+  524  git push -u origin master
+  525  git push origin master
+  526  git push -f origin master
+  527  cd edUFT/
+  528  ls
+  529  sudo ionic serve
+  530  nautilus &
+  531  nautilus
+  532  sudo nautilus &
+  533  nautilus
+  534  sudo apt-get remove ubuntu-desktop 
+  535  sudo apt-get resintall ubuntu-desktop 
+  536  sudo apt-get resinstall ubuntu-desktop 
+  537  sudo apt-get sinstall ubuntu-desktop 
+  538  sudo apt-get install ubuntu-desktop 
+  539  nautilus &
+  540  fsck.ext4 /dev/sda7
+  541  sudo reboot
+  542  nautilus
+  543  sudo apt-get install --reinstall nautilus-data
+  544  nautilus &
+  545  sudo fsck.ext4 /dev/sda7
+  546  sudo umount /dev/sda7 
+  547  history > nozes

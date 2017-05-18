@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle [color]="myColor" >
+      <ion-icon name="menu" ></ion-icon>
+    </button>
+    <ion-title><div><ion-icon name="book"></ion-icon> EDUFT</div></ion-title>
+  </ion-navbar>
+    <!--ion-buttons end>
+      <button ion-button icon-only (click)="sair()">
+        <span text-center>Olá, {{ user.details.name }}.</span><ion-icon name="exit"></ion-icon>
+      </button>
+    </ion-buttons-->
+</ion-header>
+
+<ion-content padding>
+  	<h3 text-center>Obras</h3>
+    <ion-list>
+        <ion-item *ngFor="let item of items" class="item">
+          <button (click)="itemTapped(item.id)" ion-button clear width="100%">
+          <div class="imagem">
+                <img src="{{item.imagem}}"/>
+            </div>
+            <div class="titulo" >
+                {{item.title}}
+            </div>
+          </button>
+        </ion-item>
+    </ion-list>
+</ion-content>
+

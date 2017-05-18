@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle [color]="myColor" >
+      <ion-icon name="menu" ></ion-icon>
+    </button>
+    <ion-title><div><ion-icon name="book"></ion-icon> EDUFT</div></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="center">
+  <h3>Sacola</h3>
+  <div *ngIf="this.auth.isAuthenticated() !== true" ng-init="login()"></div>
+  <div *ngIf="this.auth.isAuthenticated() === true">
+    <h4>Olá, {{ user.details.name }}. </h4>
+    <button (click)="sair();" ion-button clear text-center>Sair</button>
+  </div>
+  <div *ngIf="1 === 1">
+    <ion-list #thenBlock>
+        <ion-item class="item center">
+        <p>
+          Você não tem itens adicionados na sua sacola!
+        </p>
+        <button ion-button secondary menuToggle >Veja As Ofertas</button>
+        </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="1 !== 1">
+    <ion-list #elseBlock>
+        <h3 text-center>Obras</h3>
+        <ion-item *ngFor="let item of items" class="item">
+          <button (click)="itemTapped(item.id)" ion-button clear width="100%">
+          <div class="imagem">
+                <img src="{{item.imagem}}"/>
+            </div>
+            <div class="titulo" >
+                {{item.title}}
+            </div>
+          </button>
+        </ion-item>
+    </ion-list>
+  </div>  
+</ion-content>

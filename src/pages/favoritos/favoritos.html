@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle [color]="myColor" >
+      <ion-icon name="menu" ></ion-icon>
+    </button>
+    <ion-title><div><ion-icon name="book"></ion-icon> EDUFT</div></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="center">
+  <h3>Favoritos</h3>
+  <div *ngIf="this.auth.isAuthenticated() !== true" ng-init="login()"></div>
+  <div *ngIf="this.auth.isAuthenticated() === true">
+    <h4>Olá, {{ user.details.name }}. </h4>
+    <button (click)="sair();" ion-button clear text-center>Sair</button>
+  </div>
+  <div *ngIf="empty === 1">
+    <ion-list no-lines>
+        <ion-item class="item center">
+        <p>
+          Você não tem itens adicionados aos seus favoritos!
+        </p>
+        <button ion-button secondary (click)="verOfertas()" >Veja As Ofertas</button>
+        </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="empty === 0">
+    <ion-list no-lines>
+        <ion-item>
+            <div class="item center" >
+                Empty: {{empty}} 
+            </div>
+            <div class="item center">
+              <button ion-button secondary (click)="alt()" >Alterar Valor</button>
+            </div>
+        </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

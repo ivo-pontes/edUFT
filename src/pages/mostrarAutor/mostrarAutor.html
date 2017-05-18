@@ -1,0 +1,30 @@
+<!--
+  Generated template for the MostrarAutor page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>mostrar Autor</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list class="center">
+      <h3 >Nome:</h3>
+      <ion-item text-wrap no-lines >
+        <p >{{ autor.nome }} {{ autor.sobrenome }}</p>
+      </ion-item>
+      <h3 >Descrição:</h3>
+      <ion-item text-wrap no-lines >
+        <p class="justify">{{ autor.descricao }} </p>
+      </ion-item>
+  </ion-list>
+  <button ng-click="back()">
+    Increment
+  </button>
+</ion-content>

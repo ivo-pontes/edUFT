@@ -1,0 +1,24 @@
+page-obrasAnoAnterior {
+
+ .item{
+  width: 100%;
+ }
+ .imagem{
+  display:inline-block;
+  vertical-align: middle;
+ }
+ .titulo{
+  display:inline-block;
+  vertical-align: middle;
+  white-space:nowrap;
+  padding-left: .3em;
+  overflow: hidden;
+  word-wrap: break-word;
+ }
+ 
+     .center{
+        text-align: center;
+        margin: 0px auto;    
+    }
+    
+}
